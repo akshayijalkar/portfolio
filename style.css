@@ -1,0 +1,87 @@
+/* ====== CSS Base Code ====== */
+
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+/* Paragraphs */
+p {
+  margin-bottom: 15px;
+}
+
+/* Links */
+a {
+  color: #007BFF;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Buttons */
+button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Container utility */
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+/* Responsive image */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Form elements */
+input, textarea, select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Utility classes */
+.text-center {
+  text-align: center;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.mb-20 {
+  margin-bottom: 20px;
+}

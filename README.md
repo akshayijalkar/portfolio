@@ -1,1 +1,1 @@
-portfolio
+This is an portfolio website for personal use and no one has access to its files and folders.
